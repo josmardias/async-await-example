@@ -1,0 +1,16 @@
+{
+  "name": "async-functions-test",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-plugin-syntax-async-functions": "^6.3.13",
+    "babel-plugin-transform-async-to-generator": "^6.3.13",
+    "babel-plugin-transform-es2015-parameters": "^6.3.26"
+  },
+  "scripts": {
+    "clear": "rm -rf temp; rm -rf dist",
+    "copy": "cp -r ../src ./temp",
+    "transpile": "babel temp -d dist",
+    "build": "npm run clear && npm run copy && npm run transpile"
+  }
+}
