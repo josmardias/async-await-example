@@ -1,7 +1,9 @@
 {
   "plugins": [
-    "transform-es2015-parameters",
+    // async/await
     "syntax-async-functions",
-    "transform-async-to-generator"
+    "transform-async-to-generator",
+    // ECMA 2015
+    "transform-es2015-parameters"
   ]
 }

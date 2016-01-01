@@ -1,12 +1,14 @@
 {
   "plugins": [
-    "transform-es2015-block-scoping",
-    "transform-es2015-parameters",
-    "transform-es2015-arrow-functions",
+    // async/await
     "syntax-async-functions",
     "transform-async-to-generator",
     "transform-runtime",
     "transform-regenerator",
+    // ECMA 2015
+    "transform-es2015-block-scoping",
+    "transform-es2015-parameters",
+    "transform-es2015-arrow-functions",
     "transform-es2015-modules-commonjs"
   ]
 }
