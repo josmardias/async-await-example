@@ -19,7 +19,7 @@ function logCount() {
 
 	logCount()
 
-  sleep(1000);
+	sleep(1000);
 
 	logCount();
 
